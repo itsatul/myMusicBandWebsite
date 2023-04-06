@@ -21,7 +21,8 @@ html, body {
 }
 
 .main-header {
-    background-color: rgb(203, 101, 101);
+    /* background-color: rgb(203, 101, 101); */
+    background-color:  rgb(228, 0, 70);
     background-image: url("Images/HeaderBackgroundEditedNew.jpg");
     background-blend-mode: multiply;
     background-size: cover;
@@ -95,4 +96,32 @@ html, body {
     width: 500px;
     margin: 15px;
     border-radius: 50%;
+}
+
+.main-footer {
+    background-color:  rgb(228, 0, 70);
+    background-image: url("Images/FooterBackgroundEdited.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    color: white;
+    padding: .25em 0;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0 .5em;
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
 }
