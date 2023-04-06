@@ -1,4 +1,10 @@
-html {
-    background-color: crimson;
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: #777;
+}
 
+html, body {
+    margin: 0;
+    padding: 0;
 }
