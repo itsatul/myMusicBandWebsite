@@ -12,16 +12,17 @@
 * {
     box-sizing: border-box;
     font-family: Raleway;
-    color: #777;
+    color:  rgb(228, 0, 70);;
+    font-weight: bold;
 }
 
 html, body {
     margin: 0;
     padding: 0;
+    text-align: justify;
 }
 
 .main-header {
-    /* background-color: rgb(203, 101, 101); */
     background-color:  rgb(228, 0, 70);
     background-image: url("Images/HeaderBackgroundEditedNew.jpg");
     background-blend-mode: multiply;
@@ -91,11 +92,12 @@ html, body {
 }
 
 .about-band-image {
-    /* float: left; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     height: 500px;
     width: 500px;
-    margin: 15px;
-    border-radius: 50%;
+    border-radius: 50%; 
 }
 
 .main-footer {
@@ -251,7 +253,7 @@ html, body {
 .cart-column {
     display: flex;
     align-items: center;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(228, 0, 70);
     margin-right: 1.5em;
     padding-bottom: 10px;
     margin-top: 10px;
@@ -289,21 +291,21 @@ html, body {
 
 .btn-danger {
     color: white;
-    background-color: #EB5757;
+    background-color: rgb(228, 0, 70);
     border: none;
     border-radius: .3em;
     font-weight: bold;
 }
 
 .btn-danger:hover {
-    background-color: #CC4C4C;
+    background-color: rgb(228, 0, 228);
 }
 
 .cart-quantity-input {
     height: 34px;
     width: 50px;
     border-radius: 5px;
-    border: 1px solid #56CCF2;
+    border: 1px solid rgb(228, 0, 70);
     background-color: #eee;
     color: #333;
     padding: 0;
@@ -313,7 +315,7 @@ html, body {
 }
 
 .cart-row:last-child {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(228, 0, 70);
 }
 
 .cart-row:last-child .cart-column {
