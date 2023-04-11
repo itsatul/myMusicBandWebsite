@@ -2,16 +2,16 @@
 @import url("https://fonts.googleapis.com/css?family=Metal+Mania");
 
 @font-face {
-    font-family: "Booter - Zero Zero";
-    src: url("Fonts/Booter - Zero Zero.woff") format("woff"),
-         url("Fonts/Booter - Zero Zero.woff2") format("woff2");
+    font-family: "BooterZeroZero";
+    src: url("Fonts/BooterZeroZero.woff") format("woff"),
+         url("Fonts/BooterZeroZero.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
 
 * {
     box-sizing: border-box;
-    font-family: Raleway;
+    font-family: "Raleway";
     color:  rgb(228, 0, 70);;
     font-weight: bold;
 }
@@ -51,9 +51,9 @@ html, body {
 
 .main-nav {
     text-align: center;
-    font-size: 1.1em;
+    font-size: 2.0em;
     font-weight: lighter;
-    border-bottom: 1px solid rgba(255, 255, 255, .3)
+    border-bottom: 5px solid rgba(255, 255, 255, .3)
 }
 
 .main-nav li {
@@ -64,7 +64,7 @@ html, body {
     text-align: center;
     margin: 0;
     font-size: 4em;
-    font-family: "Booter - Zero Zero";
+    font-family: "BooterZeroZero";
     font-weight: normal;
     color: white;
 }
