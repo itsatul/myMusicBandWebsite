@@ -18,7 +18,14 @@ This project simulates a simple real-world client request: "Build a mini online 
 ## 🧱 Project Structure
 
 ```
-/SEEED-Website ├── index.html # Home page (Tours) ├── seeed.html # About page (Band history) ├── store.html # Online store (Albums & Merch) ├── styles.css # CSS styling for all pages ├── store.js # JavaScript logic for shopping cart └── Images/ # Image assets (albums, merch, logos, screenshots)
+/SEEED-Website
+ ├── index.html # Home page (Tours)
+ ├── seeed.html # About page (Band history)
+ ├── store.html # Online store (Albums & Merch)
+ ├── styles.css # CSS styling for all pages
+ ├── store.js # JavaScript logic for shopping cart
+ └── Images/ # Image assets (albums, merch, logos)
+
 ```
 
 ## 🚀 How to Run Locally
