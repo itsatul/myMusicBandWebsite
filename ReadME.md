@@ -53,14 +53,17 @@ This project simulates a simple real-world client request: "Build a mini online 
 
 ## 📸 Screenshots
 
-- Homepage (Tours)
-  ![App Screenshot](./screenshot_home.png)
+**Homepage (Tours)**
 
-- Store Page (Albums & Merch)
-  ![App Screenshot](./screenshot_store.png)
+![App Screenshot](./screenshot_home.png)
 
-- About Page (Band History)
-  ![App Screenshot](./screenshot_about.png)
+**Store Page (Albums & Merch)**
+
+![App Screenshot](./screenshot_store.png)
+
+**About Page (Band History)**
+
+![App Screenshot](./screenshot_about.png)
 
 ## 🧠 What I Learned
 
